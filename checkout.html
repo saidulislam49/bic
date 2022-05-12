@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom Font -->
+    <link rel="stylesheet" href="css/font.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="fontawesome-6.1.1-web/css/all.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>BIC-Bangladesh Islamic Centre</title>
+  </head>
+  <body>
+ 
+    <!-- Header area start --> 
+
+    <nav class="navbar main_header secondary_header navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">BIC</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa-solid fa-bars"></span> 
+          </button>
+
+          <div class="main_menu collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About us</a></li>
+               <li><a href="allbooks.html">Books</a></li>
+               <li><a href="magazine.html">Magazine</a></li>
+               <li><a href="seminar.html">Seminar</a></li>
+               <li><a href="blog.html">Articls</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="d-flex align-items-center">
+               <div class="cart">
+                <a href="cart.html">
+                    <span class="cart_notification">2</span>
+                    <img src="images/Bag.png" alt="">
+                </a>
+               </div>
+               <div class="account">
+                <a href=""><i class="fa-regular fa-user"></i></a>
+               </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- Header area end -->
+
+
+    <!-- checkout item start -->
+    <section class="checkout_section"> 
+        <div class="checkout_container"> 
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="checkout_address">
+                        <form class="row g-3">
+                            <div class="col-sm-6">
+                              <label for="inputname" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="inputname" placeholder="Your Name">
+                            </div>
+                            <div class="col-sm-6">
+                              <label for="inputemail" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputemail" placeholder="Your Email">
+                            </div>
+                            <div class="col-sm-6">
+                              <label for="phoneNumber" class="form-label">Phone</label>
+                              <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            </div>
+                            <div class="col-sm-6">
+                              <label for="emergencycontact" class="form-label">Emergency Contact</label>
+                              <input type="text" class="form-control" id="emergencycontact" placeholder="Optional">
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <label for="district" class="form-label">District</label>
+                                <select id="district" class="form-select">
+                                    <option selected disabled>District Name</option>
+                                    <option>Dhaka</option>
+                                    <option>...</option>
+                                  </select>
+                              </div>
+                              <div class="col-sm-6 col-md-4">
+                                <label for="thana" class="form-label">Thana</label>
+                                <select id="thana" class="form-select">
+                                  <option selected disabled>Thana</option>
+                                  <option value="1">Dhaka</option>
+                                  <option value="">...</option>
+                                </select>
+                              </div>
+                              <div class="col-md-2">
+                                <label for="inputZip" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                            <div class="col-12">
+                              <label for="inputAddress" class="form-label">Address</label> 
+                              <textarea class="form-control" id="inputAddress" cols="10" rows="2" placeholder="1234 Main St"></textarea>
+                            </div>
+                            <div class="col-12">
+                              <label for="additonalinfo" class="form-label">Additional Info(optional)</label> 
+                              <textarea class="form-control" id="additonalinfo" cols="10" rows="2" placeholder=""></textarea>
+                            </div>
+                            
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    I agree to the <span>terms and conditions, Return Policy & Privacy Policy.</span>
+                                </label>
+                              </div>
+                            </div> 
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="ataglance">
+                        <h3 class="cart-checkout-title mt-0">Total</h3>
+                        <div class="cart-totals">
+                            <ul>
+                                <li>subtotal <span>2,220/-</span></li> 
+                                <li>Discount <span>0/-</span></li>
+                                <li>Delivery charge<span>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="deliverycharge" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Home Delivery (48tk)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="deliverycharge" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Local Pickup (70tk)
+                                        </label>
+                                    </div>
+
+                                </span></li>
+                                <li><b>total</b> <span><b>2220/-</b></span></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="ataglance">
+                        <h4 class="cart-checkout-title mt-0">select payment method</h4>
+                        <div class="cart-totals">
+                            <ul>
+                                 
+                                <li>Delivery Methods<span>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="paymentmethod" id="paymentmethod1">
+                                        <label class="form-check-label" for="paymentmethod1">
+                                            Cash On delivery
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="paymentmethod" id="paymentmethod2">
+                                        <label class="form-check-label" for="paymentmethod2">
+                                            Digital Payments
+                                        </label>
+                                    </div>
+
+                                </span></li> 
+                            </ul>
+    
+                            <div class="dubble_btn"> 
+                                <a href="#" class="checkout_btn btn_hover">  <span>complete order</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- checkout item end -->
+
+
+
+    
+
+
+
+    
+
+
+    <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="footer_intro">
+                            <h3>BIC</h3>
+                            <p>Lorem Ipsum is simply dummy type indu Lorem Ipsum has been the industry's standard stry simply dummy.</p>
+                            <div class="social_links">
+                                <ul>
+                                    <li class="facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li class="instagram"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="twitter"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="important_links">
+                            <div class="link_title">
+                                <h3>Important links</h3>
+                            </div> 
+                            <ul>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="categories">
+                            <div class="categories_title">
+                                <h3>Categories</h3>
+                            </div> 
+                            <ul>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                                <li><a href="#">lorem ipsum</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="contact_us">
+                           <div class="contact_title">
+                               <h3>Contact us</h3>
+                           </div>
+                           <div class="contact_item">
+                               <a href="tel:01700000000">01700000000</a>
+                               <a href="mailto:something@gmail.com">something@gmail.com</a>
+                           </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="copyright_area">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>All Rights Reserved &copy; Khaled Mahmud || Developed by <a target="_blunk" href="https://innovainst.com/">INNOVA INSTITUTE</a></p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+    <!-- Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("nav");
+            header.classList.toggle("sticky", window.scrollY > 0); 
+        })
+    </script> -->
+
+  </body>
+</html>
