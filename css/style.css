@@ -1521,7 +1521,8 @@ a{
 .order_wraps .order_table .order_status a:hover{
     background: #108666;
     color: #ffffff;
-}
+} 
+ 
 /* customer profile end */
 
 
@@ -1605,3 +1606,59 @@ a{
     background-color: #ffffff;
 }
 /* contact page css end */
+
+/* order details start */
+.dashboard_wrapper .content_wrapper .repeat_design {
+	background: transparent;
+	border-radius: unset;
+	box-shadow: unset !important;
+	padding: 0;
+	margin-bottom: 0px; 
+}
+.dashboard_wrapper .content_wrapper .tab_content .card{
+    margin-bottom: 20px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .ataglance .cart-totals {
+	padding: 0px;
+	border-radius: 0;
+	border: unset; 
+}
+.dashboard_wrapper .content_wrapper .tab_content .ataglance .cart-totals ul{
+    margin: 0;
+}
+.dashboard_wrapper .content_wrapper .tab_content .ataglance .cart-checkout-title { 
+    padding: 7px 15px;   
+    font-size: 20px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .card{
+    border: unset;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+.dashboard_wrapper .content_wrapper .tab_content .card .card-header{
+    background-color: #d5f2ea;
+    padding: 7px 15px;    
+    color: #000000;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    border-bottom: unset;
+}
+.dashboard_wrapper .content_wrapper .tab_content .card .card-header h5{
+    font-size: 20px;
+    border-radius: 2px 2px 0 0;
+}
+.dashboard_wrapper .content_wrapper .tab_content .ataglance {
+	background: transparent;
+	border-radius: unset;
+	box-shadow: unset;
+	padding: 0;
+	margin-bottom: 0px;
+}
+.dashboard_wrapper .content_wrapper .tab_content .ataglance .cart-totals{
+    background: #ffffff;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+/* order details end */
