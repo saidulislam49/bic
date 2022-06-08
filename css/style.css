@@ -157,16 +157,17 @@ a{
 .navbar-toggler:focus { 
 	box-shadow: unset;
 }
-.main_header{
-    /* padding: 40px 0; */
-    transition: all 1s;
-    z-index: 9999;
+.main_header {
+	/* padding: 40px 0; */
+	transition: all 1s;
+	z-index: 9999;
+	background: #d5f2ea; 
 }
 .main_header .logo{
     font-family: 'ProductSans';
     font-size: 30px;
     font-weight: 700;
-    color: #ffffff;
+    color: #242424;
     line-height: 36px;
 } 
 .main_header button span{
@@ -177,7 +178,7 @@ a{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    color: #ffffff;
+    color: #242424;
     text-decoration: none;
     text-transform: capitalize;
     padding: 15px;
@@ -955,14 +956,7 @@ a{
     line-height: 30px;
     color: #242424;
 }
-.book_image_info .book_info .other_info .info_type .info_dot{
-    padding: 0px 20px;
-    font-family: 'ProductSans';
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #242424;
-}
+ 
 .book_image_info .book_info .other_info .info_type .info_value{
     font-family: 'ProductSans';
     font-size: 20px;
@@ -1662,3 +1656,28 @@ a{
 }
 
 /* order details end */
+
+/* slider css start */
+.slider_container ul.slick-dots {
+	list-style-type: none;
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-left: 0;
+}
+.slider_container ul.slick-dots button {
+	color: transparent;
+	border: 0;
+	background-color: #cdcdcd;
+	height: 6px;
+	width: 16px;
+	border-radius: 3px;
+	margin: 0 5px;
+}
+.slider_container ul.slick-dots li.slick-active button {
+	background-color: #108666;
+	width: 30px;
+}
+/* slider css end */
